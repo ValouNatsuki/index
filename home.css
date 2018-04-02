@@ -211,14 +211,15 @@ html, body {
 
 footer {
   background-color: #514959cc;
-  bottom: 0;
-  position: fixed;
-  max-width: 100%;
-  width: -moz-available;
-  height: 90px;
-  text-align: center;
-  color: #FFF;
-  font-family: 'Nunito';
+bottom: 0;
+position: fixed;
+max-width: 100%;
+width: -moz-available;
+height: 90px;
+text-align: center;
+color: #FFF;
+font-family: 'Nunito';
+font-size: 12px;
 }
 
 footer img {
@@ -230,17 +231,17 @@ footer img {
 }
 
 .projects {
-    background-color: #514959cc;
-    right: 0;
-    position: fixed;
-    text-align: center;
-    color: #FFF;
-    font-family: 'Nunito';
-    height: 50%;
-    top: 20%;
-    border: 50px;
+    background-color: #9baff8;
+  right: 0;
+  position: fixed;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Nunito';
+  bottom: 20%;
 }
 
 .projects img {
     width: 280px;
+  margin-right: 80px;
+  margin-left: 20px;
 }
