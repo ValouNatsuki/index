@@ -21,6 +21,12 @@ html, body {
     margin: 0px;
 }
 
+.cb-slideshow li span {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cb-slideshow li span { 
 	padding: 0px;
     margin: 0px;
