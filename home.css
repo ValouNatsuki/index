@@ -201,6 +201,7 @@ html, body {
     height: 50px;
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
+    font-weight: bold;
     background-color: #E0E5FBE6;
     padding-right: 10px;
     padding-left: 10px;
@@ -209,11 +210,20 @@ html, body {
 }
 
 footer {
-  background-color: #FFF9;
+  background-color: #514959cc;
   bottom: 0;
   position: fixed;
   max-width: 100%;
   width: -moz-available;
-  height: 100px;
+  height: 140px;
   text-align: center;
+  color: #FFF;
+}
+
+footer img {
+
+    width: 50px;
+    border-radius: 20%;
+    margin-top: 15px;
+
 }
