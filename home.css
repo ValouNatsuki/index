@@ -182,14 +182,14 @@ html, body {
     .cb-slideshow li div h3 { font-size: 80px }
 }
 
-/* .avatar a img {
+#avatar img {
   width: 150px;
   border-radius: 50%;
   box-shadow: 0 0 0 8px #FFF;
   position: absolute;
   left: 35px;
   top: 25px;
-} */
+}
 
 #username a {
     left: 170px;
