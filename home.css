@@ -184,14 +184,14 @@ html, body {
 
 }
 
-.avatar a img {
+/* .avatar a img {
   width: 150px;
   border-radius: 50%;
   box-shadow: 0 0 0 8px #FFF;
   position: absolute;
   left: 35px;
   top: 25px;
-}
+} */
 
 #username a {
     left: 170px;
