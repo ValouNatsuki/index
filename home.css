@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body {
 	padding: 0px;
     margin: 0px;
@@ -198,7 +200,7 @@ html, body {
     position: absolute;
     height: 50px;
     font-size: 40px;
-    font-family: Arial, bold;
+    font-family: 'Nunito', sans-serif;
     background-color: #E0E5FBE6;
     padding-right: 10px;
     padding-left: 10px;
