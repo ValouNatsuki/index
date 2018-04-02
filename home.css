@@ -215,9 +215,10 @@ footer {
   position: fixed;
   max-width: 100%;
   width: -moz-available;
-  height: 140px;
+  height: 90px;
   text-align: center;
   color: #FFF;
+  font-family: 'Nunito';
 }
 
 footer img {
