@@ -187,7 +187,7 @@ html, body {
 #avatar img {
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 0 8px #FFF;
+  box-shadow: 0 0 0 8px #ffcec4;
   position: absolute;
   left: 55px;
   top: 45px;
@@ -196,17 +196,17 @@ html, body {
 #username a {
     left: 170px;
     top: 200px;
-    color: #3EA9DB;
+    color: #E66068;
     position: absolute;
     height: 50px;
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    background-color: #E0E5FBE6;
+    background-color: #FBE6E2;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 0 4px #FFF;
+    box-shadow: 0 0 0 4px #ffcec4;
 }
 
 footer {
@@ -220,6 +220,9 @@ text-align: center;
 color: #FFF;
 font-family: 'Nunito';
 font-size: 12px;
+border-top: #ecb7ac;
+border-top-style: solid;
+border-top-width: 7px;
 }
 
 footer img {
