@@ -228,3 +228,19 @@ footer img {
     margin-top: 15px;
 
 }
+
+.projects {
+    background-color: #514959cc;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Nunito';
+    height: 50%;
+    top: 20%;
+    border: 50px;
+}
+
+.projects img {
+    width: 280px;
+}
