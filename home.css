@@ -210,7 +210,7 @@ html, body {
 }
 
 footer {
-  background-color: #514959cc;
+  background-color: rgba(81, 73, 89, 0.8);
 bottom: 0;
 position: fixed;
 max-width: 100%;
