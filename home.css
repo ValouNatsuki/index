@@ -193,6 +193,16 @@ html, body {
   top: 45px;
 }
 
+@media only screen and (max-width: 500px) {
+    #avatar img {
+        width: 100px;
+        left: 15px;
+        top: 25px;
+        box-shadow: 0 0 0 4px #ffcec4;
+    }
+}
+
+
 #username a {
     left: 170px;
     top: 200px;
