@@ -318,7 +318,7 @@ footer img {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-height: 600px) and (max-width: 800px) {
     #avatar img {
         width: 100px;
         left: 15px;
