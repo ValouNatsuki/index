@@ -4,6 +4,7 @@ body {
 	padding: 0px;
     margin: 0px;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 html, body {
@@ -206,7 +207,7 @@ html, body {
 #avatar img {
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 0 8px #ffcec4;
+  box-shadow: 0 0 0 8px #EF834E;
   position: absolute;
   left: 55px;
   top: 45px;
@@ -254,17 +255,17 @@ _:-moz-tree-row(hover), #browser_firefox img {
 #username a {
     left: 170px;
     top: 200px;
-    color: #E66068;
+    color: #EF834E;
     position: absolute;
     height: 50px;
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    background-color: #FBE6E2;
+    background-color: #CEC0F3;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 0 4px #ffcec4;
+    box-shadow: 0 0 0 4px #4F50A2;
     z-index: 5;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -284,7 +285,7 @@ text-align: center;
 color: #FFF;
 font-family: 'Nunito';
 font-size: 12px;
-border-top: #ecb7ac;
+border-top: #4F50A2;
 border-top-style: solid;
 border-top-width: 7px;
 }
