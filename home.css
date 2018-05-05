@@ -222,7 +222,7 @@ html, body {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     #browser_ie img {
     width: 100px;
-    position: absolute;
+    position: fixed;
     left: 0px;
     bottom: 0px;
     z-index: 10;
@@ -235,7 +235,7 @@ html, body {
 /* Chrome */
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { #browser_chrome img {
         width: 160px;
-        position: absolute;
+        position: fixed;
         left: 5px;
         bottom: 0px;
         z-index: 10;
@@ -245,7 +245,7 @@ html, body {
 /* Firefox */
 _:-moz-tree-row(hover), #browser_firefox img {
         width: 160px;
-        position: absolute;
+        position: fixed;
         left: 5px;
         bottom: 0px;
         z-index: 10;
