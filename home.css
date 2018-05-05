@@ -3,6 +3,7 @@
 body {
 	padding: 0px;
     margin: 0px;
+    overflow-y: hidden;
 }
 
 html, body {
@@ -211,6 +212,44 @@ html, body {
   top: 45px;
 }
 
+.browser_img img {
+    opacity: 0;
+    z-index: -10;
+}
+
+/* IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #browser_ie img {
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 10;
+    background-color: #70c2e9;
+    border-radius: 10px;
+    opacity: 1
+}
+}
+
+/* Chrome */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { #browser_chrome img {
+        width: 160px;
+        position: absolute;
+        left: 5px;
+        bottom: 0px;
+        z-index: 10;
+        opacity: 1
+    } }
+
+/* Firefox */
+_:-moz-tree-row(hover), #browser_firefox img {
+        width: 160px;
+        position: absolute;
+        left: 5px;
+        bottom: 0px;
+        z-index: 10;
+        opacity: 1
+    }
 
 #username a {
     left: 170px;
@@ -226,6 +265,12 @@ html, body {
     padding-left: 10px;
     border-radius: 10px;
     box-shadow: 0 0 0 4px #ffcec4;
+    z-index: 5;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #username a {
+        color: rgba(230, 96, 105, 1);
+    }
 }
 
 footer {
